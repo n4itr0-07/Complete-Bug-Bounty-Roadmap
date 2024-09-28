@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #bdc3c7;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background: #333;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+/* Different color for each section heading */
+#introduction h2 {
+  color: #e74c3c;
+}
+#basics h2 {
+  color: #3498db;
+}
+#web-app-security h2 {
+  color: #f1c40f;
+}
+#reconnaissance h2 {
+  color: #2ecc71;
+}
+#vulnerability-exploration h2 {
+  color: #9b59b6;
+}
+#tools h2 {
+  color: #e67e22;
+}
+#advanced h2 {
+  color: #1abc9c;
+}
+#ctfs h2 {
+  color: #e84393;
+}
+
+section p {
+  margin-bottom: 15px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section ul li {
+  padding: 8px 0;
+}
+
+section ul li a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
+}
+
+#manual-resources h2 {
+  color: #ff6347; /* Tomato red color for heading */
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+#manual-resources p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #bdc3c7;
+}
+
+#manual-resources ul {
+  list-style-type: none;
+}
+
+#manual-resources ul li {
+  margin-bottom: 20px;
+  background-color: #444;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#manual-resources ul li h3 {
+  color: #f39c12;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+}
+
+#manual-resources ul li p {
+  color: #ecf0f1;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+#manual-resources ul li a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+#manual-resources ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}

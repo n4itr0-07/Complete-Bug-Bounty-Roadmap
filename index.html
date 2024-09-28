@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Complete Bug Bounty Roadmap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bug Bounty Roadmap: From Beginner to Advanced</h1>
+      <p>Your complete guide to mastering Bug Bounty Hunting</p>
+    </header>
+
+    <section id="introduction">
+      <h2>Introduction to Bug Bounty</h2>
+      <p>
+        Bug bounties are a way for ethical hackers to find vulnerabilities in a
+        company's systems and get rewarded for responsibly reporting them. To
+        become proficient, you need to learn various aspects of web security,
+        tools, and techniques.
+      </p>
+      <p>
+        Follow this roadmap step by step to become an expert Bug Bounty hunter.
+      </p>
+    </section>
+
+    <section id="basics">
+      <h2>1. Basics of Networking & Web Technology</h2>
+      <p>
+        Understand the fundamentals of how the web works, including protocols
+        like HTTP/HTTPS, DNS, and how data travels across the web. Familiarize
+        yourself with web development basics such as HTML, CSS, and JavaScript.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+            target="_blank"
+            >MDN Web Docs - HTTP Overview</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a
+            href="https://youtube.com/playlist?list=PLkW9FMxqUvyZaSQNQslneeODER3bJCb2K&si=UvaM6-OMbS5u31DJ"
+            target="_blank"
+            >YouTube - Networking Basics</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a href="https://www.w3schools.com/html/" target="_blank"
+            >W3Schools - HTML, CSS, and JavaScript</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="web-app-security">
+      <h2>2. Learn Web Application Security Fundamentals</h2>
+      <p>
+        Before diving into bug hunting, you should learn how web applications
+        work, their architecture, and common vulnerabilities.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a href="https://owasp.org/www-project-top-ten/" target="_blank"
+            >OWASP Top 10</a
+          >
+          - The most critical web application security risks
+        </li>
+        <li>
+          Resource:
+          <a href="https://www.udemy.com/share/1050Fc/" target="_blank"
+            >Udemy - Web Security Fundamentals</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a href="https://www.hacksplaining.com/" target="_blank"
+            >Hacksplaining</a
+          >
+          - Interactive security learning
+        </li>
+      </ul>
+    </section>
+
+    <section id="reconnaissance">
+      <h2>3. Master Reconnaissance</h2>
+      <p>
+        Recon is one of the most crucial steps in bug bounty hunting. Learning
+        to gather information effectively will improve your chances of finding
+        vulnerabilities.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a
+            href="https://youtu.be/27s49iO4J4k?si=fLUSej3XVFgvkEes"
+            target="_blank"
+            >YouTube - Recon for Bug Bounties</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a href="https://reconftw.com/" target="_blank"
+            >ReconFTW - Automated Recon Framework</a
+          >
+        </li>
+        <li>
+          Tool:
+          <a href="https://github.com/OWASP/Amass" target="_blank"
+            >OWASP Amass</a
+          >
+          - Advanced network mapping
+        </li>
+      </ul>
+    </section>
+
+    <section id="vulnerability-exploration">
+      <h2>4. Vulnerability Discovery & Exploitation</h2>
+      <p>
+        Now that you've mastered recon, it's time to explore vulnerabilities.
+        The most common types include XSS, SQLi, SSRF, CSRF, and more.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a
+            href="https://portswigger.net/web-security/all-materials"
+            target="_blank"
+            >PortSwigger Academy</a
+          >
+          - Web Security Labs
+        </li>
+        <li>
+          Resource:
+          <a href="https://www.hacker101.com/" target="_blank">Hacker101</a> -
+          Bug Bounty Training Platform
+        </li>
+        <li>
+          Resource:
+          <a
+            href="https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN"
+            target="_blank"
+            >YouTube - Web Vulnerabilities Playlist</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="tools">
+      <h2>5. Essential Bug Bounty Tools</h2>
+      <p>
+        There are a number of tools that will make your bug bounty hunting
+        process easier. From network scanning to vulnerability exploitation,
+        knowing how to use these tools is key.
+      </p>
+      <ul>
+        <li>
+          Burp Suite:
+          <a href="https://portswigger.net/burp" target="_blank">Burp Suite</a>
+          - The #1 tool for web vulnerability scanning
+        </li>
+        <li>
+          Nmap: <a href="https://nmap.org/" target="_blank">Nmap</a> - Network
+          scanning tool
+        </li>
+        <li>
+          SQLMap:
+          <a href="https://github.com/sqlmapproject/sqlmap" target="_blank"
+            >SQLMap</a
+          >
+          - Automated SQL injection tool
+        </li>
+        <li>
+          Sublist3r:
+          <a href="https://github.com/aboul3la/Sublist3r" target="_blank"
+            >Sublist3r</a
+          >
+          - Subdomain enumeration
+        </li>
+        <li>
+          Resource:
+          <a
+            href="https://youtu.be/4WqymtvuWZQ?si=5lR_paYeOIOlSvEQ"
+            target="_blank"
+            >YouTube - Top Bug Bounty Tools</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="advanced">
+      <h2>6. Advanced Techniques and Specializations</h2>
+      <p>
+        Once you've mastered the basics, dive into more advanced topics like
+        mobile app security, source code review, and advanced recon methods.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a href="https://www.udemy.com/share/1074hk/" target="_blank"
+            >Udemy - Advanced Bug Bounty Hunting</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a
+            href="https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters"
+            target="_blank"
+            >NahamSec - Advanced Recon Resources</a
+          >
+        </li>
+        <li>
+          Resource:
+          <a
+            href="https://youtube.com/playlist?list=PLF7JR1a3dLONdkRYU_8-5OcgOzrWe2549&si=nDEeBVxbzcOsYMX5"
+            target="_blank"
+            >YouTube - STÖK (Advanced Bug Bounty Techniques)</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="ctfs">
+      <h2>7. Practice: CTFs and Real-World Programs</h2>
+      <p>
+        After learning, the best way to grow is by practicing. Capture The Flag
+        (CTF) platforms provide real-world like environments for practicing your
+        skills.
+      </p>
+      <ul>
+        <li>
+          Resource:
+          <a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a>
+        </li>
+        <li>
+          Resource:
+          <a href="https://tryhackme.com/" target="_blank">TryHackMe</a>
+        </li>
+        <li>
+          Resource:
+          <a href="https://ctftime.org/" target="_blank"
+            >CTFTime - Upcoming CTF Events</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- Add more sections here as needed -->
+    <section id="manual-resources">
+      <h2>8. Bonus Resources</h2>
+      <p>
+        Here you can find additional resources that I have curated for Bug
+        Bounty Hunting. These resources may include full course, tutorials,
+        tools, and more.
+      </p>
+      <ul>
+        <!-- Example of how you can add resources -->
+        <li>
+          <h3>Bug Bounty Free Traning ( In Hindi )</h3>
+          <p>
+            Complete Bug Bounty course free avaliable on youtube live lectures.
+            And further classes going on
+          </p>
+          <a
+            href="https://youtube.com/playlist?list=PLOJR6EhNalnu7hgxu7QhA9GrF9i23JX9A&si=hjpS935rs3pcyf7V"
+            target="_blank"
+            >Live Bug Bounty Traning ( hindi )</a
+          >
+        </li>
+        <li>
+          <h3>Bug Hunting Course</h3>
+          <p>Second bonus course with with upto 74 lectures.</p>
+          <a
+            href="https://youtube.com/playlist?list=PLJ18l2m4Gsa_d-WrmQYi6AcjQCxRZ0wG1&si=y7j02ykMPwT8XAMU"
+            target="_blank"
+            >Bug Hunting Playlist</a
+          >
+        </li>
+        <!-- Add more resources here -->
+      </ul>
+    </section>
+
+    <footer>
+      <h3>Connect with me</h3>
+      <p>Follow me on social media for more tips and updates:</p>
+      <ul>
+        <li><a href="https://github.com/Salik-Seraj">Github</a></li>
+        <li><a href="https://x.com/code_with_ssn">X</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/salik-seraj-naik">LinkedIn</a>
+        </li>
+        <!-- <li><a href="#">Social Link 4</a></li>
+            <li><a href="#">Social Link 5</a></li> -->
+      </ul>
+    </footer>
+  </body>
+</html>
