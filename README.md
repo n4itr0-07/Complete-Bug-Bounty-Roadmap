@@ -4,7 +4,7 @@ This is a comprehensive Bug Bounty Roadmap designed to help individuals learn Bu
 
 ## Live Preview
 
-You can check out the live version of this roadmap [here](https://bugbountyroadmap.freewebhostmost.com/).
+You can check out the live version of this roadmap [here](https://salik-seraj.github.io/Complete-Bug-Bounty-Roadmap/).
 
 ## Features
 
@@ -47,4 +47,4 @@ If you have any suggestions or issues, feel free to reach out to me on my social
 
 ---
 
-Check out the [live roadmap](https://bugbountyroadmap.freewebhostmost.com/) and start your journey into Bug Bounty Hunting today!
+Check out the [live roadmap](https://salik-seraj.github.io/Complete-Bug-Bounty-Roadmap/) and start your journey into Bug Bounty Hunting today!
