@@ -3,7 +3,10 @@
 This is a comprehensive Bug Bounty Roadmap designed to help individuals learn Bug Bounty from the basics to advanced techniques. It covers everything you need to know, including networking, web application security, reconnaissance, vulnerability discovery, and the use of essential tools.
  
 
-![image](https://github.com/user-attachments/assets/6a7e2a06-d234-482f-98a6-75d51b123429)
+
+
+https://github.com/user-attachments/assets/8b43de09-bde0-49dc-ac35-066fe4fd17f2
+
 
 
 ## Live Preview
