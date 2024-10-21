@@ -33,11 +33,6 @@ You can check out the live version of this roadmap [here](https://n4itr0-07.gith
 7. **CTFs & Real-World Practice**: Hone your skills by practicing on platforms like Hack The Box, TryHackMe, and participating in CTFs.
 8. **Manually Added Resources**: A section for additional handpicked resources to stay updated with new trends.
 
-## How to Use
-
-1. Clone or download this repository.
-2. Open the `index.html` file in your preferred browser to view the roadmap locally or deploy it on any static site hosting platform (like GitHub Pages).
-3. You can modify the "Manually Added Resources" section to add new tools, blogs, or references.
 
 ## Technologies Used
 
