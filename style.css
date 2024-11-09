@@ -89,6 +89,67 @@ section ul li a {
 section ul li a:hover {
   text-decoration: underline;
 }
+/* General Section Styles */
+#motivation {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+#motivation h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #38bdf8;
+}
+
+.motivation-section,
+.quotes-section,
+.closing-section {
+  margin-top: 2rem;
+}
+
+.motivation-section h3,
+.quotes-section h3,
+.closing-section h3 {
+  font-size: 1.75rem;
+  color: #f87171;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+blockquote {
+  margin-left: 2rem;
+  font-style: italic;
+  color: #a5b4fc;
+}
+
+.quotes-section ul blockquote {
+  color: #fcd34d;
+}
+
+.quotes-section ul blockquote span {
+  color: #f59e0b;
+}
+
+.closing-section p {
+  line-height: 1.8;
+}
+
+.closing-section h3 {
+  color: #34d399;
+}
+
+.closing-section p:last-child {
+  font-size: 1.2rem;
+  color: #6ee7b7;
+}
+/* -------------------------------------------*/
 
 #manual-resources h2 {
   color: #ff6347; /* Tomato red color for heading */
