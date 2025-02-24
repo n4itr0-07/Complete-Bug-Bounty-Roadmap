@@ -29,6 +29,19 @@ header p {
   color: #bdc3c7;
 }
 
+header p a {
+  color: #bdc3c7 !important; /* Force the paragraph color */
+  text-decoration: none !important; /* No underline, even if inherited */
+  font-size: 1.2em !important; /* Match the paragraph's font size */
+  font-weight: inherit; /* Inherit weight from parent */
+}
+
+header p a:hover, header p a:focus {
+  color: #bdc3c7 !important; /* Prevent hover/focus changes */
+  text-decoration: none !important; /* Ensure no underline appears */
+}
+
+
 section {
   padding: 20px;
   margin: 20px auto;

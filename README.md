@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/8b43de09-bde0-49dc-ac35-066fe4fd17f2
 
 ## Live Preview
 
-**You can check out the live version of this roadmap [GitHub Pages Here](https://n4itr0-07.github.io/Complete-Bug-Bounty-Roadmap/) | [Another Link](https://bugbountyroadmap.freewebhostmost.com/).**
+**You can check out the live version of this roadmap [GitHub Pages Here](https://n4itr0-07.github.io/Complete-Bug-Bounty-Roadmap/)**
 
 
 ## Features
